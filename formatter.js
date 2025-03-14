@@ -58,9 +58,6 @@ class BaseFormatter {
 
 class DecimalSeparatorFormatter {
 
-    // Default constructor
-    constructor() {}
-
     format(n) {
         // Set the number (n) to a string
         let nString = Math.abs(n).toString();
